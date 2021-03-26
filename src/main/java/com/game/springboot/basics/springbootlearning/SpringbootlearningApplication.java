@@ -9,9 +9,9 @@ public class SpringbootlearningApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = SpringApplication.run(SpringbootlearningApplication.class, args);
-		for (String beans : applicationContext.getBeanDefinitionNames()) {
+		/*for (String beans : applicationContext.getBeanDefinitionNames()) {
 			System.out.println(beans+"\t");
-		}
+		}*/
 	}
 
 }
